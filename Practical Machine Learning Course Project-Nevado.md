@@ -44,7 +44,6 @@ The expected out-of-sample error will correspond to the quantity: 1-accuracy in 
 Our outcome variable “classe” is a factor variable. We split the Training dataset into TrainTrainingSet and TestTrainingSet datasets.
 
 ```{r cache=TRUE, warning=FALSE, results='hide', cache.lazy=FALSE, message=FALSE}
-
 #Loading the required packages
 library(lattice)
 library(ggplot2)
